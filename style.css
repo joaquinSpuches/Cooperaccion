@@ -49,6 +49,19 @@ nav li{
     color: white;
     font-size: 1.2vw;
 }
+#porques div{
+    height: 100vh;
+}
+.scroll{
+    scroll-behavior: smooth;
+}
+#porque a{
+    font-family: 'akzidenz-grotesk_bqcondensed';
+    list-style: none;
+    padding:  30px;
+    color: white;
+    font-size: 1.2vw;
+}
 article p{
     font-family: 'akzidenz-grotesk_bqLtCn';
     list-style:none ;
