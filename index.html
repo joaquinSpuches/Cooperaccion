@@ -14,7 +14,7 @@
 <body  class="scroll">
   
 <div id="porque" style="background-image: url('Asset\ 4.png');background-size:cover;"> 
-    <nav >
+    <nav style="position: fixed;" class="nav" >
         <ul>
             <a href="#porques" >POR QUÉ Y PARA QUÉ</a >
             <a href="#eljuego" >EL JUEGO</a >
@@ -26,48 +26,48 @@
         <main>
             <img class="logo" src="Asset 3.png" alt="logo">
             <p class="intro-txt">
-                Nada más lindo que aprender jugando…</br>
-            </br>
-y lejos de pensar que el juego es exclusivo</br>
-del nivel inicial y primario, esta propuesta está dirigida</br>
-a estudiantes del <b>nivel secundario.</b> </br>
+                "Nada más lindo que aprender <br> jugando…
+            
+y lejos de pensar que <br> el juego es exclusivo
+del nivel <br> inicial y primario, esta <br> propuesta está dirigida</br>
+a estudiantes del <b>nivel secundario.</b>  " </br>
             </p>
         </main>
     </div>
-    <div>
+    <div style="display:  flex; padding-left: 15.5vw;">
     
-        <article id="porques" class="scroll">
-            <div>
-                <img src="Asset 8.png" style='width:250px;' alt="">
-            </div>
-            <div style="width: 70%;padding-left: 147px;">
+        <div style=" margin-top: 100px">
+            <img src="Asset 8.png" style='width:250px;' alt="">
+        </div>
+        <article id="porques" class="scroll reveal">
+            <div style="width: 70%;padding-left: 147px; ">
             <h2 style="padding-bottom:20px">Cooperacción tiene como propósito promover los valores del cooperativismo en la
                 comunidad escolar, dar a conocer sus principales características, sus principios y su
                 historia.</h2>
             <h3 style="padding-bottom:20px">
                 ¿Por qué abordar el tema del cooperativismo con estudiantes en la escuela secundaria?
             </h3>
-            <ul >
+            <ul style="height: 100%;">
                 <li>
-                    • Porque en un mundo cada vez más desafiante y comple-jo es clave hablar con ellos sobre
+                    Porque en un mundo cada vez más desafiante y comple-jo es clave hablar con ellos sobre
 los valores que reflejan nuestros comportamientos y decisiones que tomamos; poder
 reflexionar acerca del mundo que queremos crear y cómo desde nuestro accionar somos
 constructores de ese mundo.
                 </li>
                 <li>
-                    • Porque el cooperativismo puede ser inspirador para en-contrar ellos mismos formas
+                    Porque el cooperativismo puede ser inspirador para en-contrar ellos mismos formas
 de solucionar conflictos que viven actualmente: problemas de convivencia en el aula, en
 la escuela, en su barrio. Visualizar el camino de la coo-peración como una alternativa de
 resolución de conflictos y además como una forma de satisfacer las necesidades de
 cada uno que beneficia a todos porque no busca “ganar” a costa de los demás.
                 </li>
                 <li>
-                    • Porque el aprendizaje de los principios y valores del coo-perativismo es un contenido
+                    Porque el aprendizaje de los principios y valores del coo-perativismo es un contenido
                     prioritario (está incluido en los NAP -Núcleos de Aprendizaje Prioritarios- definidos por
                     el Consejo Federal de Educación).
                 </li>
                 <li style="padding-bottom:50px">
-                    • Porque la incorporación de conceptos de cooperativismo en las escuelas esta
+                    Porque la incorporación de conceptos de cooperativismo en las escuelas esta
 referido en el artículo 90 de la Ley de Educación.
                 </li >
             </ul>
@@ -79,7 +79,7 @@ referido en el artículo 90 de la Ley de Educación.
 </div>
     <div id="eljuego" class="scroll" style="background-image: url('background\ green.png');background-size:cover;height: 100vh;">
        <div>
-        <img src="Asset 10.png" style="width: 250px;padding-left: 15.5vw;padding-bottom: 100px;padding-top: 100px;" alt="ElJuegoLogo">
+        <img src="Asset 10.png" style="width: 250px;padding-left: 15.5vw;padding-bottom: 100px;margin-top: 100px;" alt="ElJuegoLogo">
         
        </div>
        <div>
@@ -120,9 +120,10 @@ referido en el artículo 90 de la Ley de Educación.
             </ul>
             <p id="objetivo" >
                 Cooperacción es un juego de escape. </br>
-El objetivo es poder salir de una situación ( “escapar”) a través de cumplir 4 misiones. </br>
-Se parte de una situación que se coDmparte con los participantes y se los desafía a resolverla antes de que acabe el</br>
+El objetivo es poder salir de una situación ( “escapar”) a través de cumplir 4 misiones. 
+Se parte de una situación que se coDmparte con los participantes y se los desafía a resolverla antes de que acabe el
 tiempo pautado.</br>
+<br>
 La dinámica del juego busca crear un espíritu de colaboración dentro de cada grupo y entre grupos; no de competencia.</br>
 Por eso el objetivo es “salir” todos juntos, no que un grupo gane o se salve solo, de hecho esa opción no es posible.</br>
             </p>
@@ -238,13 +239,13 @@ jornada.
        </div>
     </div>
     <div  id="despues" class="scroll" style="background-image: url('Asset\ 5.png');background-size:cover;">
-        <article style="padding-left:15.5vw;padding-right:15.5vw;display: flex;flex-direction: row;padding-top:200px;">
+        <article style="padding-left:15.5vw;padding-right:15.5vw;display: flex;flex-direction: row;padding-top: 100px;">
             <div style="height: 100vh;
             display: flex;
             flex-direction: column;
             align-items: center;">
                 <img id="liIntro" src="Asset 11.png" alt="yDespuesLogo" style="width: 250px;">
-                <ul id="ulDespues" >
+                <ul id="ulDespues" class="ulDespues" >
                     <li id="liComoJugamos" onmouseleave="document.getElementById('ulDespues').style.backgroundColor='white'"  onmouseover="document.getElementById('ulDespues').style.backgroundColor = '#E77050'" class="liDespues">
                         ¿Cómo jugamos?
                     </li>
@@ -257,7 +258,7 @@ jornada.
                 </ul>
             </div>
 
-            <div style=" padding-left: 147px;align-self: center;">
+            <div style="  margin-top: 100px;padding-left: 147px;">
                     <div id="intro"  >
                         <h2>Propuesta educativa para realizar después del juego
                         </h2>
@@ -280,74 +281,76 @@ contando.
 <br>
 Algunas ideas para reflexionar entre todos: <br>
 
-• Hay juegos que, como este, no buscan la competencia sino la colaboración. La competencia promueve
-ciertos comportamientos como por ejemplo no compartir información para evitar que el otro gane mientras
-que los juegos cooperativos promueven otro tipo de acciones: compartir nos beneficia a todos,
-involucrarnos en lo que el otro no puede resolver, pedir y brindar ayuda, etc.
+• Hay juegos que, como este, no buscan la competencia sino la colaboración. La competencia promueve 
+ciertos comportamientos como por ejemplo no compartir información para evitar que el otro gane mientras 
+que los juegos cooperativos promueven otro tipo de acciones: compartir nos beneficia a todos, 
+involucrarnos en lo que el otro no puede resolver, pedir y brindar ayuda, etc. <br>
 <br>
-• Trabajar todos juntos implica poner en juego habilidades como la escucha, la búsqueda de acuerdos, el
-intercambio de ideas u opiniones, la resolución de conflictos, etc.
+• Trabajar todos juntos implica poner en juego habilidades como la escucha, la búsqueda de acuerdos, el 
+intercambio de ideas u opiniones, la resolución de conflictos, etc. <br>
 <br>
-• Todos somos diferentes y eso nos permite pensar que cada uno puede aportar algo distinto al objetivo
-común, es decir, nos complementamos. Pero más allá de eso, todos valemos igual en tanto somos personas
-y formamos parte de ese equipo.
+• Todos somos diferentes y eso nos permite pensar que cada uno puede aportar algo distinto al objetivo 
+común, es decir, nos complementamos. Pero más allá de eso, todos valemos igual en tanto somos personas 
+y formamos parte de ese equipo. <br>
 <br>
-• Cumplir los propios objetivos a la vez que buscar el beneficio de todos es una forma diferente de actuar,
-que puede implicar mayor esfuerzo pero que genera un impacto diferente, que suma valor y que posibilita
-un modo de hacer más sustentable
+• Cumplir los propios objetivos a la vez que buscar el beneficio de todos es una forma diferente de actuar, 
+que puede implicar mayor esfuerzo pero que genera un impacto diferente, que suma valor y que posibilita 
+un modo de hacer más sustentable <br>
 <br>    
 </p>
-                    <p id="aprendimos" class="hide">
-                        ¿Qué aprendimos del cooperativismo?
+                   <div id="aprendimos" class="hide">
+                     <p  >
+                    ¿Qué aprendimos del cooperativismo? <br>
 <br>
-                        Sugerimos “mezclar” a todos los estudiantes y armar 4 grupos, de modo tal que no queden tal cual como
-                        jugaron.
-    <br>                    
-                        Asignarles 10 minutos para que intercambien ideas y resuman en una hoja: “¿qué aprendimos del
-                        cooperativismo?”; pueden también especificar un poco más la consigna indicando que escriban 3 ideas que
-                        les quedaron acerca del cooperativismo:
-        <br>
-
-                        • una sobre qué es el cooperativismo
-        <br>                
-                        • otra sobre cómo surgió el cooperativismo
-            <br>            
-                        • y la tercera sobre los valores
-                <br>        
-                        Luego de los 10 minutos, hacer una puesta en común, invitando a un representante de cada grupo a contar
-                        lo que resumieron. Después de escuchar a los 3 grupos, puede completar con la información que haya
-                        faltado o que haya quedado poco clara (las tarjetas de ayuda pueden resultar una guía para esto).
-                    <br>    
-                        También se puede complementar con otras preguntas como:
-                        <br>
-                        • ¿Qué conocías o sabías del cooperativismo?
-                        <br>
-                        • ¿Conocés alguna cooperativa?
-                        <br>
-                        • ¿Qué te sorprendió o no sabías del cooperativismo?
-                        <br>
-                        • ¿Te gustaría profundizar o saber algo más sobre el cooperativismo?
-                    </p>
+                    Sugerimos “mezclar” a todos los estudiantes y armar 4 grupos, de modo tal que no queden tal cual como 
+                    jugaron. <br>
+<br>                    
+                    Asignarles 10 minutos para que intercambien ideas y resuman en una hoja: “¿qué aprendimos del 
+                    cooperativismo?”; pueden también especificar un poco más la consigna indicando que escriban 3 ideas que 
+                    les quedaron acerca del cooperativismo: <br>
+    <br>
+                    </p>    
+                    <ul>
+                        <li>una sobre qué es el cooperativismo</li>
+                        <li>otra sobre cómo surgió el cooperativismo</li>
+                        <li>y la tercera sobre los valores </li>
+                    </ul>                    
+                  <p>
+            <br>        
+                    Luego de los 10 minutos, hacer una puesta en común, invitando a un representante de cada grupo a contar <br>
+                    lo que resumieron. Después de escuchar a los 3 grupos, puede completar con la información que haya 
+                    faltado o que haya quedado poco clara (las tarjetas de ayuda pueden resultar una guía para esto). 
+                <br>    
+                    También se puede complementar con otras preguntas como: <br>
+                    <br> 
+                    • ¿Qué conocías o sabías del cooperativismo? <br>
+                    <br>
+                    • ¿Conocés alguna cooperativa? <br>
+                    <br>
+                    • ¿Qué te sorprendió o no sabías del cooperativismo? <br>
+                    <br>
+                    • ¿Te gustaría profundizar o saber algo más sobre el cooperativismo? <br>
+                </p></div> 
                     <p id="aporta" class="hide">
-                        ¿Qué nos aporta y en qué podemos aplicarlo?
+                        ¿Qué nos aporta y en qué podemos aplicarlo? <br>
 <br>
-Invitar a los estudiantes a pensar sus problemas o situaciones cotidianas
+Invitar a los estudiantes a pensar sus problemas o situaciones cotidianas <br>
 <br>
-• ¿Qué situaciones del día a día podríamos abordar desde el cooperativismo?
+• ¿Qué situaciones del día a día podríamos abordar desde el cooperativismo? <br>
 <br>
-• ¿Qué deberíamos dejar de hacer y qué podríamos hacer distinto?
+• ¿Qué deberíamos dejar de hacer y qué podríamos hacer distinto? <br>
 <br>
-• ¿Cómo imaginan un día de escuela en donde todas las personas se comportaran guiados por valores
+• ¿Cómo imaginan un día de escuela en donde todas las personas se comportaran guiados por valores 
 cooperativos?
 <br>
-• ¿Cómo resolverían un problema típico que les toca enfrentar en su vida diaria desde los valores del
+• ¿Cómo resolverían un problema típico que les toca enfrentar en su vida diaria desde los valores del 
 cooperativismo?
 <br>
 A continuación, proponemos algunas ejemplos que podrían utilizarse como “mini casos” para debatir entre
-todos qué valores se ven reflejados:
+todos qué valores se ven reflejados: <br>
 <br>
-Un compañero de un año inferior al tuyo necesita ayuda para prepararse para una prueba de
-matemática, materia que vos dominás muy bien. Por otro lado, este compañero se ofrece a ayudarte
+Un compañero de un año inferior al tuyo necesita ayuda para prepararse para una prueba de <br>
+matemática, materia que vos dominás muy bien. Por otro lado, este compañero se ofrece a ayudarte 
 con el trabajo práctico de arte que estás preparando para la muestra de la semana próxima.
 <br>
 Toda la escuela está preparando un bingo para recaudar fondos para comprar un equipo de sonido

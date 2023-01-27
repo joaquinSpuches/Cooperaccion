@@ -1,3 +1,5 @@
+
+
 const button = document.getElementById('ulDespues')
 const liDespues = document.getElementsByClassName('liDespues') 
 
@@ -30,9 +32,9 @@ const comoJugamos = document.getElementById('comoJugamos')
 const aprendimos = document.getElementById('aprendimos')
 const aporta = document.getElementById('aporta')
 
+const nav = document.querySelector('.nav')
 const arrayDespues = [comoJugamos,aprendimos,aporta, intro]
 const arrayOpciones = [liComoJugamos,liAprendimos,liAporta,liIntro]
-
 
 
 for (let i = 0; i < arrayJuego.length; i++) {
@@ -92,7 +94,26 @@ for (let i = 0; i < arrayOpciones.length; i++) {
     })
     
     
+
 }
 
+let lastScrollY = window.scrollY
+
+
+
+window.addEventListener('scroll', () =>{
+
+    if (window.scrollY < 2125 && window.scrollY > 2120){   
+        nav.classList.remove('nav-hide')
+        
+    }else if(lastScrollY < window.scrollY){
+        console.log(window.scrollY)
+        nav.classList.add('nav-hide')
+    }else{
+        console.log('scrool up');
+        nav.classList.remove('nav-hide')
+    }
+    lastScrollY = window.scrollY
+})
 
 
